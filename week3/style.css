@@ -271,9 +271,12 @@ footer p {
     margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   }
-  .slideshow-img {
-    vertical-align: middle;
-    width: 100%; /* You can increase this value to make the images bigger */
+  /* Style for the images in the image slider */
+.slideshow-img {
+    display: block;
+    margin: 0 auto; /* Center the images horizontally */
+    width: 80%; 
+    max-height: 300px; /* Set a maximum height to maintain aspect ratio */
   }
   
   /* Style for the form: setting width, auto margin for centering, padding,
