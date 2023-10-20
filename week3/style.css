@@ -266,20 +266,7 @@ footer p {
 }
 
 /* Style for the gallery container */
-.gallery-container {
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 40px;
-  }
-  
-  /* Style for the gallery images */
-  .gallery-container img {
-    width: 100%;
-    margin-bottom: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  }
+
   /* Style for the images in the image slider */
    
   /* Style for the form: setting width, auto margin for centering, padding,
