@@ -229,10 +229,29 @@ footer p {
   border-radius: 3px 0 0 3px;
 }
 
+/* Style for the Next button */
 .next {
-  right: 0;
-  border-radius: 0 3px 3px 0;
-}
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Adjust this value to control the horizontal position */
+    transform: translateY(-50%);
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the background color and transparency */
+    color: white;
+    font-size: 20px; /* Adjust the font size as needed */
+    text-align: center;
+    line-height: 40px; /* Should be equal to the button height for vertical alignment */
+    border-radius: 50%; /* Makes the button circular */
+    cursor: pointer;
+  }
+  
+  /* Style for the Next button on hover */
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Adjust the background color on hover */
+  }
+  
+  
 
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
