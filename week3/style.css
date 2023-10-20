@@ -191,65 +191,68 @@ footer p {
 /* Your existing CSS code above */
 
 /* Gallery Slideshow Styles */
-* {
-    box-sizing: border-box;
+* /* Style for the image slider container */
+.container {
+  position: relative;
+}
+
+/* Style for the images in the slider */
+.mySlides {
+  display: none;
+}
+
+/* Style for the prev and next buttons */
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  z-index: 1;
+  transition: background-color 0.3s;
+}
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.next {
+  right: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* Style for the gallery container */
+.gallery-container {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
   }
   
-  .slideshow-img {
-    vertical-align: middle;
-    width: 100%;
-  }
-  
-  .container {
-    position: relative;
-  }
-  
-  .mySlides {
-    display: none;
-  }
-  
-  .cursor {
-    cursor: pointer;
-  }
-  
-  .prev,
-  .next {
-    cursor: pointer;
-    position: absolute;
-    top: 40%;
-    width: auto;
-    padding: 8px;
-    margin-top: -50px;
-    color: white;
-    font-weight: bold;
-    font-size: 10px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
-  }
+  /* Style for the gallery images */
   .gallery-container img {
-    width: 60%; 
+    width: 60%;
     margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
-  
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
   }
   
-  .prev:hover,
-  .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
-  
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
   /* Style for the form: setting width, auto margin for centering, padding,
 background color, border radius for rounded corners, and font size */
 #form {
