@@ -282,7 +282,7 @@ footer p {
     display: block;
     margin: 0 auto; /* Center the images horizontally */
     width: 80%; /* Increase image width to 80% */
-    max-height: 400px; /* Adjust the maximum height to your preference */
+    max-height: 500px; /* Adjust the maximum height to your preference */
 }
   
   /* Style for the form: setting width, auto margin for centering, padding,
