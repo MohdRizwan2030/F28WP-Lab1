@@ -196,12 +196,12 @@ footer p {
   position: relative;
 }
 
-/* Style for the images in the slider */
+
 .mySlides {
   display: none;
 }
 
-/* Style for the prev and next buttons */
+
 .cursor {
   cursor: pointer;
 }
@@ -235,18 +235,18 @@ footer p {
 /* Style for the Next button */
 .slideshow-img {
     display: block;
-    margin: 0 auto; /* Center the images horizontally */
+    margin: 0 auto; 
     width: 100%;
     max-height: 400px; /* Adjust the maximum height to your preference */
-    position: relative; /* Add this line */
-    top: 50%; /* Add this line */
-    transform: translateY(-50%); /* Add this line */
+    position: relative; 
+    top: 50%; 
+    transform: translateY(-50%); 
 }
 
 .next {
     position: absolute;
     top: 50%;
-    right: 10px; /* Adjust the horizontal position as needed */
+    right: 10px; 
     transform: translateY(-50%);
     width: 40px;
     height: 40px;
