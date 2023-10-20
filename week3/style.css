@@ -267,7 +267,7 @@ footer p {
   
   /* Style for the gallery images */
   .gallery-container img {
-    width: 60%;
+    width: 100%;
     margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   }
