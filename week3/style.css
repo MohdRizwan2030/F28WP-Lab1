@@ -227,6 +227,11 @@ footer p {
     user-select: none;
     -webkit-user-select: none;
   }
+  .gallery-container img {
+    width: 30%; /* Increase the width to make images larger */
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
   
   .next {
     right: 0;
