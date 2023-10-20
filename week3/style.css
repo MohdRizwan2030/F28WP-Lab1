@@ -251,14 +251,11 @@ footer p {
     font-size: 20px;
     text-align: center;
     line-height: 40px;
-    border-radius: 100%;
+    border-radius: 50%;
     cursor: pointer;
 }
 
 /* Style for the Next button on hover */
-.next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
 
   
   /* Style for the Next button on hover */
