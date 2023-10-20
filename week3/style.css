@@ -266,7 +266,96 @@ footer p {
 }
 
 /* Style for the gallery container */
-
+.container {
+    position: relative;
+  }
+  
+  /* Style for the images in the slider */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Style for the prev and next buttons */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    z-index: 1;
+    transition: background-color 0.3s;
+  }
+  
+  .prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* Style for the Next button */
+  /* Style for the images in the image slider */
+  
+  /* Style for the Next button */
+  .slideshow-img {
+      display: block;
+      margin: 0 auto; /* Center the images horizontally */
+      width: 80%; /* Increase image width to 80% */
+      max-height: 400px; /* Adjust the maximum height to your preference */
+  }
+  .next {
+      position: absolute;
+      top: 50%;
+      right: 10px; /* Adjust the horizontal position as needed */
+      transform: translateY(-50%);
+      width: 40px;
+      height: 40px;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      font-size: 20px;
+      text-align: center;
+      line-height: 40px;
+      border-radius: 50%;
+      cursor: pointer;
+  }
+  
+  /* Style for the Next button on hover */
+  
+    
+    /* Style for the Next button on hover */
+    
+  
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Style for the gallery container */
+  .gallery-container {
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 40px;
+    }
+    
+    /* Style for the gallery images */
+    .gallery-container img {
+      width: 100%;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    /* Style for the images in the image slider */
+     
   /* Style for the images in the image slider */
    
   /* Style for the form: setting width, auto margin for centering, padding,
