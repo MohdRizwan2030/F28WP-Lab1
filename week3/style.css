@@ -228,7 +228,7 @@ footer p {
     -webkit-user-select: none;
   }
   .gallery-container img {
-    width: 30%; /* Increase the width to make images larger */
+    width: 60%; 
     margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
