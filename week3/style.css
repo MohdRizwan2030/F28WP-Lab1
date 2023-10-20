@@ -271,6 +271,10 @@ footer p {
     margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   }
+  .slideshow-img {
+    vertical-align: middle;
+    width: 100%; /* You can increase this value to make the images bigger */
+  }
   
   /* Style for the form: setting width, auto margin for centering, padding,
 background color, border radius for rounded corners, and font size */
